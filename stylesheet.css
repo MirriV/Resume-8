@@ -7,17 +7,17 @@ body {
     flex-direction: column;
     background-image: url(Images/background\ image.jpg);
     background-color: white;
-    background-repeat:unset;
-    background-position:unset;
-  }
-  
-  header {
+    background-repeat: unset;
+    background-position: unset;
+}
+
+header {
     text-align: center;
     color: #212529;
     background-color: #d9ae94;
-  }
-  
-  footer {
+}
+
+footer {
     background-color: #d9ae94;
     text-align: center;
     color: #212529;
@@ -26,69 +26,171 @@ body {
     padding-top: 2rem;
     margin-left: 0rem;
     margin-bottom: 0rem;
-  }
-  
-  .link {
+}
+
+.link {
     color: #212529;
-  }
-  
-  #Education {
+}
+
+.Education {
     color: #212529;
-  }
-  
-  #Menu {
+}
+
+#Menu {
     background-color: #a4c3b2;
     width: 150px;
     padding: 2rem;
     padding-right: 6rem;
     margin-bottom: 0em;
-  }
-  
-  #profilePhoto {
+}
+
+#profilePhoto {
     width: 15%;
     height: 15%;
     border-radius: 50%;
     border: solid #212529;
-  }
-  
-  .navList {
+}
+
+.navList {
     list-style-type: none;
     padding: 0%;
-  }
-  
-  .icons {
+}
+
+.icons {
     width: 3rem;
     margin: 0.5rem;
-  }
-  
-  .main {
+}
+
+.main {
     display: flex;
     flex-direction: row;
     overflow: unset;
-  }
-  
-  .content {
+}
+
+
+.content {
     margin: 1rem;
-  }
-  @media screen and (max-width:768px){
-      .allcontent{
-          display:inline-block;
-          width:45%;
-          height:250px;
-          background-color: red;
-          margin-left: auto;
-          margin-right: auto;
-      }
-  }
-  @media screen and (max-width:768px){
-    .main{
-        display:inline-block;
-        width:45%;
-        height:250px;
+}
+/* Mobile Sizing*/
+@media only screen and (max-width:600px) {
+    .One {
+        display: block;
+        width: 45%;
+        height: 250px;
         background-color: red;
         margin-left: auto;
         margin-right: auto;
     }
 }
-
-
+@media only screen and (max-width:600px) {
+    .Two {
+        display: block;
+        width: 45%;
+        height: 250px;
+        background-color: red;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+@media only screen and (max-width:600px) {
+    .Three {
+        display: block;
+        width: 45%;
+        height: 250px;
+        background-color: red;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+@media only screen and (max-width:600px) {
+    .Three {
+        display: block;
+        width: 45%;
+        height: 250px;
+        background-color: red;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+/*Tablet Sizing*/
+@media only screen and (max-width:768px) {
+    .One {
+        display: inline-block;
+        width: 45%;
+        height: 250px;
+        background-color: red;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+@media only screen and (max-width:768px) {
+    .Two {
+        display: inline-block;
+        width: 45%;
+        height: 250px;
+        background-color: red;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+@media only screen and (max-width:768px) {
+    .Three {
+        display: inline-block;
+        width: 45%;
+        height: 250px;
+        background-color: red;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+@media only screen and (max-width:768px) {
+    .Three {
+        display: inline-block;
+        width: 45%;
+        height: 250px;
+        background-color: red;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+/* Laptop Sizing*/
+@media only screen and (max-width:992px) {
+    .One {
+        display: inline-block;
+        width: 45%;
+        height: 250px;
+        background-color: red;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+@media only screen and (max-width:992px) {
+    .Two {
+        display: inline-block;
+        width: 45%;
+        height: 250px;
+        background-color: red;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+@media only screen and (max-width:992px) {
+    .Three {
+        display: inline-block;
+        width: 45%;
+        height: 250px;
+        background-color: red;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+@media only screen and (max-width:992px) {
+    .Three {
+        display: inline-block;
+        width: 45%;
+        height: 250px;
+        background-color: red;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
